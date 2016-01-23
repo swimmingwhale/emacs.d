@@ -1,0 +1,19 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Jan 23 12:17:54 2016
+;; Desktop file format version 206
+;; Emacs version 24.3.50.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22178 65266 264011 303000) (desktop . "206") "book@Lenovo" nil nil ((((font-backend xft x) (font . "-unknown-Ubuntu Mono-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (vertical-scroll-bars) (foreground-color . "Grey") (background-color . "Grey15") (mouse-color . "Grey") (border-color . "Grey") (screen-gamma) (line-spacing) (left-fringe . 13) (right-fringe . 13) (scroll-bar-foreground . "#00ff00") (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "Grey") (sticky) (environment) (frameset--id . "52B6-E3A0-F778-CD80") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . ":0") (explicit-name) (top-toolbar-shadow-color . "#b2b2b2b2b2b2") (bottom-toolbar-shadow-color . "#595959595959") (background-toolbar-color . "#949494949494") (viper-saved-cursor-color-in-replace-mode . "Red3") (visibility . t) (height . 40) (width . 140) (left . 65) (top . 24)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 104) (min-pixel-width . 130) (min-pixel-height-ignore . 53) (min-pixel-width-ignore . 52) (min-pixel-height-safe . 26) (min-pixel-width-safe . 26)) leaf (pixel-width . 1855) (pixel-height . 1030) (total-width . 142) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "*Messages*" (selected . t) (hscroll . 0) (fringes 13 13 nil) (margins nil) (scroll-bars 16 0 t nil) (vscroll . 0) (dedicated) (point . 161) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/init.el" "/var/www/crm/app/Http/Controllers/TestController.php" "/var/www/crm/app/Http/" "~/" "~/#a.org#" "~/a.org" "/var/www" "/var/www/crm/app/Console/Kernel.php" "/usr/share/emacs/24.3.50/etc/NEWS" "/var/www/crm/app/Console/Commands/Make_clue_table.php" "/var/www/crm/database/migrations/2014_10_12_000000_create_users_table.php" "/var/www/crm/.env" "/var/www/crm/" "/var/www/crm/app/" "~/.emacs" "/var/www/crm/app/Http/Controllers/aaaa/TestController.php" "/var/www/crm/app/Http/Controllers/aaaa/a.php" "/var/www/crm/app/Http/Controllers/aaaa" "/var/www/crm/app/Http/Controllers/TestController1.php" "/" "/root" "~/vboxshare/" "/var/www/crm" "/var/www/crm/server.php" "/var/www/" "/usr/share/info/emacs-snapshot/" "/usr/share/info/emacs-snapshot/n" "/usr/share/info/emacs-snapshot/efaq.info.gz" "/var/www/crm/app/Servers/BLogger.php"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
