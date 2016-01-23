@@ -1,0 +1,12 @@
+/.emacs.desktop
+/auto-save-list
+/.session
+/session.*
+/custom.el
+.svn
+*~
+.*.lock
+cookies
+\#*
+site-lisp/package/
+/bb.sh
