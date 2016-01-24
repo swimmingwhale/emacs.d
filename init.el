@@ -14,7 +14,8 @@
 
 (color-theme-initialize)
 
-(color-theme-charcoal-black)
+(color-theme-classic)
+
 
 
 
