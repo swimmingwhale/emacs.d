@@ -6,6 +6,18 @@
 
 (set-default-font"-unknown-Ubuntu Mono-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1")
 
+; 设置默认tab宽度为4
+
+(setq tab-width 4
+
+indent-tabs-mode t
+
+c-basic-offset 4)
+
+
+; 按下C-x k立即关闭掉当前的buffer
+
+(global-set-key (kbd "C-x k") 'kill-this-buffer)
 
 
 ;加入主题
@@ -15,8 +27,6 @@
 (color-theme-initialize)
 
 (color-theme-classic)
-
-
 
 
 ;加入会话功能
@@ -104,3 +114,5 @@
    '(1 "_NET_WM_STATE_MAXIMIZED_VERT" 0)))
 
 (my-maximized)
+
+
