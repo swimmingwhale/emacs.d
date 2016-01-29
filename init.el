@@ -62,6 +62,8 @@ c-basic-offset 4)
 (define-key php-mode-map (kbd "－") (kbd "-"))  
 (define-key php-mode-map (kbd "，") (kbd ","))  
 (define-key php-mode-map (kbd "。") (kbd "."))  
+(define-key php-mode-map (kbd " ") (kbd " "))  
+(define-key php-mode-map (kbd "；") (kbd ";"))  
 ) 
 
 (add-hook 'php-mode-hook 'php-mode-my-init)
