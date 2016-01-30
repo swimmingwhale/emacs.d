@@ -80,7 +80,8 @@ c-basic-offset 4)
 
 ;普通设置
 
-(setq make-backup-files 0);不产生备份文件
+(setq make-backup-files 0);取消定时备份
+(setq backup-by-copying t);取消emacs修改文件先备份为~后缀文件
 
 (fset 'yes-or-no-p 'y-or-n-p);以 y/n代表 yes/no
 
