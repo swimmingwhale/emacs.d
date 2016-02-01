@@ -25,10 +25,16 @@ c-basic-offset 4)
 (define-key org-mode-map (kbd "－") (kbd "-"))  
 (define-key org-mode-map (kbd "，") (kbd ","))  
 (define-key org-mode-map (kbd "。") (kbd "."))  
+(define-key org-mode-map (kbd "（") (kbd "("))  
+(define-key org-mode-map (kbd "）") (kbd ")"))  
 ) 
 
 (add-hook 'org-mode-hook 'org-mode-my-init)
 
+;org快捷键
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb)
 
 ;加入主题
 
