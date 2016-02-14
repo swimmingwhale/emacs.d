@@ -30,7 +30,7 @@ c-basic-offset 4)
 ) 
 
 (add-hook 'org-mode-hook 'org-mode-my-init)
-
+(add-hook 'org-mode-hook (lambda () (setq truncate-lines nil))) 
 ;org快捷键
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
