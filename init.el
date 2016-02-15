@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'load-path "~/.emacs.d/package/")
 (require 'init-common)
 (require 'init-font)
 (require 'init-org-mode)
