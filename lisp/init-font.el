@@ -16,7 +16,6 @@
 (global-set-key (kbd "×") (kbd "*"))  
 (global-set-key (kbd "（") (kbd "("))  
 (global-set-key (kbd "）") (kbd ")"))  
-(global-set-key (kbd "-") (kbd "-"))
 (global-set-key (kbd "+") (kbd "+"))
 (global-set-key (kbd "=") (kbd "="))
 (global-set-key (kbd "{") (kbd "{"))
