@@ -7,6 +7,7 @@
 (global-set-key (kbd "C-x 4 u") 'winner-undo)
 (global-set-key (kbd "C-x 4 r") 'winner-redo)
 
+;三窗口模式
  (defun split-window-4() 
  "Splite window into 4 sub-window"
  (interactive) 
@@ -16,6 +17,6 @@
         ) 
    ) 
  ) 
-(global-set-key (kbd "C-x 4 4") 'split-window-4)
+(global-set-key (kbd "C-x 4") 'split-window-4)
 
 (provide 'init-windows)
