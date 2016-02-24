@@ -8,3 +8,5 @@
 (require 'init-slime)
 (require 'init-theme)
 (require 'init-auto-complete)
+(require 'init-global-key)
+(require 'init-windows)
