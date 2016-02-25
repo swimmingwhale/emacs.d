@@ -10,3 +10,4 @@
 (require 'init-auto-complete)
 (require 'init-global-key)
 (require 'init-windows)
+(require 'init-autopair)
