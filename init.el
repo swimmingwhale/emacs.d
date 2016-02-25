@@ -11,3 +11,4 @@
 (require 'init-global-key)
 (require 'init-windows)
 (require 'init-autopair)
+(require 'init-mark-multiple)
