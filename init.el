@@ -12,3 +12,4 @@
 (require 'init-windows)
 (require 'init-autopair)
 (require 'init-mark-multiple)
+(require 'init-yasnippet)
