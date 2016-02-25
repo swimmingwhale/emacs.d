@@ -13,3 +13,4 @@
 (require 'init-autopair)
 (require 'init-mark-multiple)
 (require 'init-yasnippet)
+(require 'init-web-mode)
