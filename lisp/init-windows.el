@@ -17,6 +17,6 @@
         ) 
    ) 
  ) 
-(global-set-key (kbd "C-x 4") 'split-window-4)
+(global-set-key (kbd "C-x 5") 'split-window-4)
 
 (provide 'init-windows)
