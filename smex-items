@@ -1,16 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ kill-some-buffers
+ replace-string
  load-library
  cd
  5x5
  arp
  dbx
- dig
- erc
 )
 
 ;; ----- smex-data -----
 (
  (load-library . 1)
+ (replace-string . 3)
+ (kill-some-buffers . 2)
 )

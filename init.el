@@ -16,3 +16,4 @@
 (require 'init-web-mode)
 (require 'init-cua-mode)
 (require 'init-smex)
+(require 'init-dired-single)
