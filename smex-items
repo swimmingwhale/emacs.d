@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- kill-some-buffers
  replace-string
+ kill-some-buffers
  load-library
  cd
  5x5
@@ -13,6 +13,6 @@
 ;; ----- smex-data -----
 (
  (load-library . 1)
- (replace-string . 3)
+ (replace-string . 6)
  (kill-some-buffers . 2)
 )
