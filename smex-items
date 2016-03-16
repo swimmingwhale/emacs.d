@@ -1,18 +1,23 @@
 
 ;; ----- smex-history -----
 (
+ speedbar
  replace-string
+ auto-complete
  kill-some-buffers
+ org-capture
+ org-store-link
  load-library
- cd
- 5x5
- arp
- dbx
 )
 
 ;; ----- smex-data -----
 (
  (load-library . 1)
- (replace-string . 6)
- (kill-some-buffers . 2)
+ (replace-string . 18)
+ (kill-some-buffers . 4)
+ (org-store-link . 2)
+ (org-capture . 1)
+ (speedbar . 2)
+ (bibtex-BookInBook . 1)
+ (auto-complete . 1)
 )

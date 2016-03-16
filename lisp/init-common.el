@@ -18,8 +18,8 @@
 (setq tab-width 4 indent-tabs-mode t c-basic-offset 4)
 ; 按下C-x k立即关闭掉当前的buffer
 (global-set-key (kbd "C-x k") 'kill-this-buffer)
-
-
+;去掉欢迎界面
+ (setq inhibit-startup-message t)
 
 ;启动最大化
 

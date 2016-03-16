@@ -6,9 +6,9 @@
 
 (add-hook 'after-init-hook 'session-initialize)
 
-(load "desktop")
+;(load "desktop")
 
-(desktop-save-mode)
+;(desktop-save-mode)
 
 
 
