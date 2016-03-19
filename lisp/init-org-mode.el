@@ -4,6 +4,11 @@
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
-
-
+;取消下划线转义
+(setq org-export-with-sub-superscripts nil)
+;定义任务状态
+(setq org-todo-keywords
+    '((sequence "TODO(t)" "IMPROVING(i!)" "|" "DONE(d!)")
+     ))
+;
 (provide 'init-org-mode)
