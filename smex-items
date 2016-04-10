@@ -13,11 +13,11 @@
 ;; ----- smex-data -----
 (
  (load-library . 1)
- (replace-string . 23)
+ (replace-string . 43)
  (kill-some-buffers . 4)
  (org-store-link . 2)
  (org-capture . 1)
- (speedbar . 3)
+ (speedbar . 8)
  (bibtex-BookInBook . 1)
  (auto-complete . 1)
 )

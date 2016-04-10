@@ -17,3 +17,4 @@
 (require 'init-cua-mode)
 (require 'init-smex)
 (require 'init-dired)
+(require 'init-indent)
