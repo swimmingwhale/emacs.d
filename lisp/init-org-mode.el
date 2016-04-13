@@ -8,7 +8,7 @@
 (setq org-export-with-sub-superscripts nil)
 ;定义任务状态
 (setq org-todo-keywords
-    '((sequence "TODO(t)" "IMPROVING(i!)" "|" "DONE(d!)")
+    '((sequence "TODO(t)" "|" "DONE(d!)" "DELETE")
      ))
 ;
 (provide 'init-org-mode)
