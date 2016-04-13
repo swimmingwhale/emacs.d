@@ -10,5 +10,6 @@
 (setq org-todo-keywords
     '((sequence "TODO(t)" "|" "DONE(d!)" "DELETE")
      ))
-;
+
+(setq org-todo-keyword-faces '(("DELETE" . "yellow")))
 (provide 'init-org-mode)
