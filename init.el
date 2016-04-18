@@ -18,4 +18,5 @@
 (require 'init-smex)
 (require 'init-dired)
 ;(require 'init-indent)
+(require 'init-emmet)
 
