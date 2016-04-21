@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ zone
+ tetris
+ dunnet
  replace-string
  speedbar
  auto-complete
  kill-some-buffers
- org-capture
- org-store-link
- load-library
 )
 
 ;; ----- smex-data -----
@@ -21,4 +21,7 @@
  (bibtex-BookInBook . 1)
  (auto-complete . 1)
  (emmet-mode . 1)
+ (tetris . 3)
+ (zone . 13)
+ (dunnet . 1)
 )

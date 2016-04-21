@@ -19,4 +19,5 @@
 (require 'init-dired)
 ;(require 'init-indent)
 (require 'init-emmet)
+(require 'init-ido)
 
