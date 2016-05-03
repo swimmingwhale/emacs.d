@@ -20,4 +20,5 @@
 ;(require 'init-indent)
 (require 'init-emmet)
 (require 'init-ido)
+(require 'init-gtags)
 
