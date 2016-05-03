@@ -7,7 +7,7 @@
  zone
  tetris
  replace-string
- dunnet
+ speedbar
 )
 
 ;; ----- smex-data -----
@@ -27,4 +27,6 @@
  (toggle-truncate-lines . 12)
  (visit-tags-table . 2)
  (gtags-mode . 4)
+ (gtags-find-pattern . 4)
+ (gtags-find-symbol . 4)
 )
