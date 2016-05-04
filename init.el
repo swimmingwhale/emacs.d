@@ -21,4 +21,5 @@
 (require 'init-emmet)
 (require 'init-ido)
 (require 'init-gtags)
+(require 'init-capture)
 

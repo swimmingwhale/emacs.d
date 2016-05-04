@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
+ toggle-truncate-lines
  gtags-mode
  visit-tags-table
- toggle-truncate-lines
  zone
  tetris
  replace-string
@@ -24,7 +24,7 @@
  (tetris . 4)
  (zone . 15)
  (dunnet . 1)
- (toggle-truncate-lines . 12)
+ (toggle-truncate-lines . 14)
  (visit-tags-table . 2)
  (gtags-mode . 4)
  (gtags-find-pattern . 4)
