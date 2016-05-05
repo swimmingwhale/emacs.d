@@ -4,6 +4,7 @@
 
 (color-theme-initialize)
 
+;预览theme的网站https://emacsthemes.com/
 (color-theme-classic)
 
 
