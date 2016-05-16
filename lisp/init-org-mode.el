@@ -33,7 +33,6 @@
          :auto-sitemap t    ; Generate sitemap.org automagically
          :sitemap-filemap "sitemap.org"    ; ... call it sitemap.org (it's the default)...
          :sitemap-title "Sitemap"    ; ... with title 'Sitemap'
-         :table-of-contents nil      ; Set this to "t" if you want a table of contents.
          :export-creator-info nil    ; Disable the inclusion of "Created by Org".
          :export-author-info nil     ; Disables the inclusion of "Author: Your Name".
          :table-of-contents nil      ; Set this to "t" if you want a table of contents.
