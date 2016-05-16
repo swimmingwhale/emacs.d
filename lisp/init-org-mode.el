@@ -27,8 +27,19 @@
           :recursive t
           :publishing-function org-html-publish-to-html
           :headline-levels 4 
-          :html-extension "html"
-          :body-only t ;; Only export section between <body> </body>
+         :section-number nil
+         :org-html-preamble t
+         :org-html-postamble t
+         :auto-sitemap t    ; Generate sitemap.org automagically
+         :sitemap-filemap "sitemap.org"    ; ... call it sitemap.org (it's the default)...
+         :sitemap-title "Sitemap"    ; ... with title 'Sitemap'
+:table-of-contents nil      ; Set this to "t" if you want a table of contents.
+         :export-creator-info nil    ; Disable the inclusion of "Created by Org".
+         :export-author-info nil     ; Disables the inclusion of "Author: Your Name".
+         :table-of-contents nil      ; Set this to "t" if you want a table of contents.
+         :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/worg.css\"/>"
+         :html-preamble "<div id=\"menu\"><p><a href=\"/index.html\" >Home</a></p></div>"
+         :html-postamble ""          ; puts disqus js code here for a comment region
     )
 
     ("blog-static"
