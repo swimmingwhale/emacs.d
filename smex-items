@@ -24,7 +24,7 @@
  (tetris . 4)
  (zone . 17)
  (dunnet . 1)
- (toggle-truncate-lines . 21)
+ (toggle-truncate-lines . 22)
  (visit-tags-table . 2)
  (gtags-mode . 4)
  (gtags-find-pattern . 4)
