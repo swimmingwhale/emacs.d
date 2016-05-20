@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- toggle-truncate-lines
+ revert-buffer
  align-regexp
+ replace-string
+ toggle-truncate-lines
  zone
  align
  gtags-mode
- visit-tags-table
- tetris
 )
 
 ;; ----- smex-data -----
 (
  (load-library . 1)
- (replace-string . 80)
+ (replace-string . 82)
  (kill-some-buffers . 4)
  (org-store-link . 2)
  (org-capture . 1)
@@ -24,11 +24,12 @@
  (tetris . 4)
  (zone . 17)
  (dunnet . 1)
- (toggle-truncate-lines . 22)
+ (toggle-truncate-lines . 23)
  (visit-tags-table . 2)
  (gtags-mode . 4)
  (gtags-find-pattern . 4)
  (gtags-find-symbol . 4)
  (align . 1)
- (align-regexp . 17)
+ (align-regexp . 19)
+ (revert-buffer . 1)
 )
