@@ -22,8 +22,6 @@
 (require 'init-windows)
 ;自动输入成对括号
 (require 'init-autopair)
-;匹配下一个相同的单词
-(require 'init-mark-multiple)
 ;自定义代码片段,便捷输入
 (require 'init-yasnippet)
 ;编辑html和js的mode
