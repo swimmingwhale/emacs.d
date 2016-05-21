@@ -40,4 +40,6 @@
 (require 'init-gtags)
 ;很方便的记录灵感
 (require 'init-capture)
+;显示与上次commit的变化
+(require 'init-git-gutter)
 
