@@ -47,5 +47,5 @@
 ;显示与上次commit的变化
 (require 'init-git-gutter)
 ;org-page
-;(require 'init-org-page)
+(require 'init-org-page)
 

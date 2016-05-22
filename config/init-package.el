@@ -32,6 +32,7 @@
     git-gutter
     slime
     ido
+    org
     org-page
     php-mode
     web-mode
