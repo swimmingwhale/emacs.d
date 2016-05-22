@@ -7,11 +7,6 @@
 
 ;; use package.el to manage packages rather than manual efforts
 (require 'package)
-(add-to-list 'package-archives
-'("popkit" . "http://elpa.popkit.org/packages/"))
-(when (< emacs-major-version 24)
-;; For important compatibility libraries like cl-lib
-(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
 
 (add-to-list 'package-archives
@@ -31,6 +26,7 @@
     emmet-mode
     git-gutter
     slime
+    ggtags
     ido
     org
     org-page

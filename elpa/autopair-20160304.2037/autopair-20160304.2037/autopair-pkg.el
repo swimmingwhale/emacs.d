@@ -1,1 +1,0 @@
-(define-package "autopair" "20160304.2037" "Automagically pair braces and quotes like TextMate" 'nil :keywords '("convenience" "emulations" ))

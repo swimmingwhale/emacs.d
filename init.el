@@ -1,5 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/config/")
-;(add-to-list 'load-path "~/.emacs.d/package/")
+(add-to-list 'load-path "~/.emacs.d/package/")
 ;package
 (require 'init-package)
 ;配置备份文件目录,启动最大化等基础配置
