@@ -1,5 +1,8 @@
-(add-to-list 'load-path "~/.emacs.d/lisp/")
-(add-to-list 'load-path "~/.emacs.d/package/")
+(package-initialize)
+(add-to-list 'load-path "~/.emacs.d/config/")
+;(add-to-list 'load-path "~/.emacs.d/package/")
+;package
+(require 'init-package)
 ;配置备份文件目录,启动最大化等基础配置
 (require 'init-common)
 ;配置字体
