@@ -1,4 +1,3 @@
-(package-initialize)
 (add-to-list 'load-path "~/.emacs.d/config/")
 ;(add-to-list 'load-path "~/.emacs.d/package/")
 ;package
@@ -10,7 +9,7 @@
 ;php语法高亮
 (require 'init-php-mode)
 ;记录关闭时的状态
-(require 'init-session)
+;(require 'init-session)
 ;lisp开发环境
 (require 'init-slime)
 ;皮肤
@@ -35,6 +34,8 @@
 (require 'init-smex)
 ;配置dired模式
 (require 'init-dired)
+;配置dired除去隐藏文件
+(require 'init-dired-x)
 ;前段代码的快速编写
 (require 'init-emmet)
 ;会在minbuffer匹配出待选的文件名
@@ -46,5 +47,5 @@
 ;显示与上次commit的变化
 (require 'init-git-gutter)
 ;org-page
-(require 'init-org-page)
+;(require 'init-org-page)
 
