@@ -1,11 +1,11 @@
 
 ;; ----- smex-history -----
 (
+ toggle-truncate-lines
+ align-regexp
  customize-group
  revert-buffer
- align-regexp
  replace-string
- toggle-truncate-lines
  zone
  speedbar
 )
@@ -24,13 +24,13 @@
  (tetris . 4)
  (zone . 17)
  (dunnet . 1)
- (toggle-truncate-lines . 23)
+ (toggle-truncate-lines . 24)
  (visit-tags-table . 2)
  (gtags-mode . 4)
  (gtags-find-pattern . 4)
  (gtags-find-symbol . 4)
  (align . 1)
- (align-regexp . 19)
+ (align-regexp . 20)
  (revert-buffer . 1)
  (op/do-publication . 21)
  (op/do-publication-and-preview-site . 20)
