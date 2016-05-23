@@ -19,6 +19,7 @@
 
 (defvar kh/depended-packages
   '(auto-complete
+    flymake-php
     popup
     autopair
     color-theme

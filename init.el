@@ -48,4 +48,6 @@
 (require 'init-git-gutter)
 ;org-page
 (require 'init-org-page)
+;语法检查
+(require 'init-flymake-php)
 
