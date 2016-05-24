@@ -1,0 +1,226 @@
+/**自己加的**********************************/
+#blog_title h2 {
+    margin: 0 25px 0 0;
+    color: #000;
+    font: bold 32px/32px 'Microsoft YaHei';
+}
+#blog_title h3 {
+    padding: 2px 0 0 0;
+    color: #FFA200;
+    font: normal 15px/30px 'Microsoft YaHei';
+}
+.clear {
+    clear:both;
+}
+.list_view {
+    margin: 0 20px;
+    padding: 5px 0;
+}
+.list_item {
+    display: block;
+    clear: both;
+    background: url(../images/line_1.gif) repeat-x bottom;
+}
+.list_item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.list_view .article_title {
+    display: inline;
+    float: left;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 !important;
+    font: normal 14px/30px Arial !important;
+}
+.article_title h1 {
+    display: inline;
+    font: normal 18px 'Microsoft YaHei';
+    vertical-align: middle;
+}
+.list_view .article_manage {
+    display: inline;
+    float: right;
+    padding: 0 !important;
+    line-height: 30px !important;
+    text-align: right !important;
+    white-space: nowrap;
+}
+
+.article_manage {
+    padding: 5px 0;
+    color: #999;
+    font: normal 12px/24px Arial;
+    text-align: right;
+}
+.list_view .article_manage span {
+    margin: 0 !important;
+}
+.article_manage .link_postdate {
+    margin: 0 5px 0 0;
+}
+.article_manage span {
+    margin: 0 5px;
+}
+/**emacs中带的**********************************/
+table,td,th{border: 1px solid #ccc;border-collapse: collapse;text-align:center;}
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+
+/*********************************************/
+body {
+    font-family: Helvetica, Arial, Vernada, Tahoma, STFangsong, STXihei, "Songti SC", "Microsoft YaHei", Heiti, sans-serif;
+    font-size: 18px;
+    margin: 5% 10% 5% 10%;
+    padding: 2% 5% 5% 5%;
+    width: 70%;
+    line-height: 150%;
+}
+
+
+H4 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+    color: DarkBlue;
+}
+
+
+li {
+    margin-left: 10px;
+    list-style-type:none;    
+}
+
+
+blockquote {
+    border-left: 4px lightgrey solid;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+
+pre {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 75%;
+    border: solid 1px lightgrey;
+    background-color: Ivory;
+    padding: 5px;
+    line-height: 130%;
+    margin-left: 10px;
+    width: 95%;
+}
+
+
+code {
+    font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
+    font-size: 90%;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: crosshair;
+    padding: 1px;
+    color: black;
+}
+
+
+a:hover {
+	background-color: LightGrey;
+}
+
+
+img {
+    margin-left: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+	width: 100%;
+}
+
+
+hr {
+    color: LightGrey;
+}
