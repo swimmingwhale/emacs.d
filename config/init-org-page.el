@@ -2,6 +2,10 @@
 (require 'org-page)
 (setq op/repository-directory "~/work/swimmingwhale.github.io")
 (setq op/site-domain "http://www.kuppobook.com/")
+(setq op/site-main-title "木马牛")
+(setq op/site-sub-title "等咱有了钱，买两碗豆浆，一碗爱喝不喝，一碗就是不喝！")
+(setq op/personal-github-link "https://github.com/swimmingwhale")
+(setq op/personal-disqus-shortname "kuppo")
 ;;; for commenting, you can choose either disqus or duoshuo
 (setq op/personal-disqus-shortname "your_disqus_shortname")
 (setq op/personal-duoshuo-shortname "your_duoshuo_shortname")
