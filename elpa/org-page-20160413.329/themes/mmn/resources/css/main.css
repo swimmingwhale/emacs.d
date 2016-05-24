@@ -1,10 +1,19 @@
 /**自己加的**********************************/
 #blog_title h2 {
+    padding: 0px;
+    border-bottom: 0px;
+    width: 100%;
+    line-height: 100%;
     margin: 0 25px 0 0;
     color: #000;
     font: bold 32px/32px 'Microsoft YaHei';
 }
 #blog_title h3 {
+    padding: 0px;
+    border-bottom: 0px;
+    width: 100%;
+    line-height: 100%;
+    margin: 0px;
     padding: 2px 0 0 0;
     color: #FFA200;
     font: normal 15px/30px 'Microsoft YaHei';
@@ -154,6 +163,30 @@ body {
     line-height: 150%;
 }
 
+H1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+}
+
+H2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-bottom: 60px;
+    margin-bottom: 40px;
+    padding: 5px;
+    border-bottom: 2px LightGrey solid;
+    width: 90%;
+    line-height: 150%;
+    color: DarkGreen;
+}
+
+H3 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+    color: DarkBlue;
+}
 
 H4 {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
