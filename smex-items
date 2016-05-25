@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ op/do-publication
+ op/do-publication-and-preview-site
  revert-buffer
  replace-string
  align-regexp
  toggle-truncate-lines
  customize-group
- zone
- speedbar
 )
 
 ;; ----- smex-data -----
@@ -31,9 +31,9 @@
  (gtags-find-symbol . 4)
  (align . 1)
  (align-regexp . 21)
- (revert-buffer . 7)
- (op/do-publication . 72)
- (op/do-publication-and-preview-site . 34)
+ (revert-buffer . 11)
+ (op/do-publication . 88)
+ (op/do-publication-and-preview-site . 36)
  (op/new-post . 14)
  (customize-group . 1)
 )
