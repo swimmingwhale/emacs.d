@@ -43,11 +43,13 @@
 ;找寻函数
 (require 'init-gtags)
 ;很方便的记录灵感
-(require 'init-capture)
+;(require 'init-capture)
 ;显示与上次commit的变化
 (require 'init-git-gutter)
 ;org-page
 (require 'init-org-page)
 ;语法检查
 (require 'init-flymake-php)
+;画思维导图的
+(require 'init-graphviz-dot-mode)
 
