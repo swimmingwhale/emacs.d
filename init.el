@@ -54,4 +54,6 @@
 (require 'init-graphviz-dot-mode)
 ;image的扩展
 ;(require 'init-image+)
+;plantuml
+(require 'init-plantuml)
 
