@@ -19,6 +19,7 @@
 
 (defvar kh/depended-packages
   '(auto-complete
+image+
     flymake-php
     popup
     autopair

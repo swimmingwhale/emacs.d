@@ -52,4 +52,6 @@
 (require 'init-flymake-php)
 ;画思维导图的
 (require 'init-graphviz-dot-mode)
+;image的扩展
+;(require 'init-image+)
 
