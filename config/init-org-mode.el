@@ -4,6 +4,8 @@
 (global-set-key "\C-cl" 'org-store-link)
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
+;inline mode
+(setq org-startup-with-inline-images t)
 ;;取消下划线转义
 (setq org-export-with-sub-superscripts nil)
 ;;定义任务状态
