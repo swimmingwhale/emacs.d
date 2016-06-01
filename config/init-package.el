@@ -29,6 +29,7 @@
     emmet-mode
     git-gutter
     slime
+    mustache
     ggtags
     ido
     org

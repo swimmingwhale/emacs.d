@@ -60,4 +60,6 @@
 (require 'init-undo-tree)
 ;光标跳到某个单词处
 (require 'init-ace-jump-mode)
+;模板解析的mode,org-page的html模板就用的它解析的
+;(require 'init-mustache-mode)
 
