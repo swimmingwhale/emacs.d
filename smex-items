@@ -41,4 +41,5 @@
  (image-mode . 1)
  (imagex-global-sticky-mode . 2)
  (org-display-inline-images . 1)
+ (undo-tree-visualize . 1)
 )

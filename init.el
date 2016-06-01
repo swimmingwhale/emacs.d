@@ -58,4 +58,6 @@
 (require 'init-plantuml)
 ;撤销与反撤销
 (require 'init-undo-tree)
+;光标跳到某个单词处
+(require 'init-ace-jump-mode)
 

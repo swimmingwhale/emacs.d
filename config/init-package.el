@@ -19,6 +19,7 @@
 
 (defvar kh/depended-packages
   '(auto-complete
+    ace-jump-mode
     undo-tree
     flymake-php
     popup
