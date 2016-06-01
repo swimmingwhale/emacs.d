@@ -56,4 +56,6 @@
 ;(require 'init-image+)
 ;plantuml
 (require 'init-plantuml)
+;撤销与反撤销
+(require 'init-undo-tree)
 
