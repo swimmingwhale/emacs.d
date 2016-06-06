@@ -62,4 +62,6 @@
 (require 'init-ace-jump-mode)
 ;模板解析的mode,org-page的html模板就用的它解析的
 ;(require 'init-mustache-mode)
+;交互两个窗口的buffer
+(require 'init-buffer-move)
 
