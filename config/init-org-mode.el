@@ -19,30 +19,6 @@
 (setq org-publish-project-alist
       '(
 
-	("blog-notes"
-	 ;; Path to your org files.
-	 :base-directory "~/work/blog/org/"
-	 :base-extension "org"
-
-	 ;; Path to your Jekyll project.
-	 :publishing-directory "~/work/blog/_posts/"
-	 :recursive t
-	 :publishing-function org-html-publish-to-html
-	 :headline-levels 4 
-	 :html-extension "html"
-	 :body-only t ;; Only export section between <body> </body>         :section-number nil
-         :export-creator-info nil    ; Disable the inclusion of "Created by Org".
-         :export-author-info nil     ; Disables the inclusion of "Author: Your Name".
-         :table-of-contents nil      ; Set this to "t" if you want a table of contents.
-	 )
-
-	("blog-static"
-	 :base-directory "~/work/blog/org/"
-	 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-	 :publishing-directory "~/work/blog/_posts/"
-	 :recursive t
-	 :publishing-function org-publish-attachment
-	 )
 	
         ("doc-notes"
          :base-directory "~/work/qeebu_doc/lening/"
@@ -65,9 +41,29 @@
          :html-postamble ""          ; puts disqus js code here for a comment region
          )
 	
-
-	("blog" :components ("blog-notes" "blog-static"))
+        ("dot-notes"
+         :base-directory "~/work/dot/org/"
+         :base-extension "org"
+         :publishing-directory "~/work/dot/html/"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :headline-levels 4
+         :section-number nil
+         :org-html-preamble t
+         :org-html-postamble t
+         :auto-sitemap t    ; Generate sitemap.org automagically
+         :sitemap-filemap "sitemap.org"    ; ... call it sitemap.org (it's the default)...
+         :sitemap-title "Sitemap"    ; ... with title 'Sitemap'
+         :export-creator-info nil    ; Disable the inclusion of "Created by Org".
+         :export-author-info nil     ; Disables the inclusion of "Author: Your Name".
+         :table-of-contents nil      ; Set this to "t" if you want a table of contents.
+         :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"../css/worg.css\"/>"
+         :html-preamble "<div id=\"menu\"><p><a href=\"sitemap.html\" >Home</a></p></div>"
+         :html-postamble ""          ; puts disqus js code here for a comment region
+         )
+	
 	("doc" :components ("doc-notes"))
+	("dot" :components ("dot-notes"))
 
 	))
 
