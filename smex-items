@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ plantuml-run
+ plantuml-mode
  grep
  toggle-truncate-lines
  align-regexp
  diff
  revert-buffer
- imagex-global-sticky-mode
- image-mode
 )
 
 ;; ----- smex-data -----
@@ -43,4 +43,6 @@
  (org-display-inline-images . 1)
  (undo-tree-visualize . 1)
  (diff . 1)
+ (plantuml-mode . 3)
+ (plantuml-run . 1)
 )

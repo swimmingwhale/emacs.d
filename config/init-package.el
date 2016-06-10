@@ -20,6 +20,7 @@
 (defvar kh/depended-packages
   '(auto-complete
     ace-jump-mode
+    plantuml-mode
     buffer-move
     undo-tree
     flymake-php

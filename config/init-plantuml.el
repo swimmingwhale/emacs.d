@@ -6,6 +6,7 @@
 
 (setq org-plantuml-jar-path
       (expand-file-name "~/.emacs.d/package/plantuml.jar"))
-
+(setq plantuml-jar-path
+      (expand-file-name "~/.emacs.d/package/plantuml.jar"))
 
 (provide 'init-plantuml)
