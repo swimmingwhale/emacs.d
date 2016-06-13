@@ -21,6 +21,12 @@
 ;去掉欢迎界面
  (setq inhibit-startup-message t)
 
+(defun indent-buffer ()
+"Indent the whole buffer."
+(interactive)
+(save-excursion
+(indent-region (point-min) (point-max) nil)))
+
 ;启动最大化
 
 (defun my-maximized-horz ()

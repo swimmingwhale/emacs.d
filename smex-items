@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ indent-buffer
  replace-string
  grep
  toggle-truncate-lines
  align-regexp
  plantuml-mode
  diff
- revert-buffer
 )
 
 ;; ----- smex-data -----
@@ -45,4 +45,5 @@
  (diff . 1)
  (plantuml-mode . 4)
  (plantuml-run . 1)
+ (indent-buffer . 2)
 )
