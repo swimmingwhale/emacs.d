@@ -57,7 +57,11 @@
          :export-creator-info nil    ; Disable the inclusion of "Created by Org".
          :export-author-info nil     ; Disables the inclusion of "Author: Your Name".
          :table-of-contents nil      ; Set this to "t" if you want a table of contents.
-         :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"../css/worg.css\"/>"
+         :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"../css/worg.css\"/>
+<script type=\"text/javascript\" src=\"../js/jquery-1.4.3.min.js\"></script>
+<script type=\"text/javascript\" src=\"../fancybox/jquery.fancybox-1.3.4.pack.js\"></script>
+<link rel=\"stylesheet\" type=\"text/css\" href=\"../fancybox/jquery.fancybox-1.3.4.css\" media=\"screen\" />
+<script type=\"text/javascript\" src=\"../js/org.js\"></script>"
          :html-preamble "<div id=\"menu\"><p><a href=\"sitemap.html\" >Home</a></p></div>"
          :html-postamble ""          ; puts disqus js code here for a comment region
          )
