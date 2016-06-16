@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  op/do-publication
+ revert-buffer
  align-regexp
  toggle-truncate-lines
  grep
  indent-buffer
  replace-string
- plantuml-mode
 )
 
 ;; ----- smex-data -----
@@ -31,8 +31,8 @@
  (gtags-find-symbol . 4)
  (align . 1)
  (align-regexp . 50)
- (revert-buffer . 54)
- (op/do-publication . 93)
+ (revert-buffer . 56)
+ (op/do-publication . 99)
  (op/do-publication-and-preview-site . 37)
  (op/new-post . 16)
  (customize-group . 1)
