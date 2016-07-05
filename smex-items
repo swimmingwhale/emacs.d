@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ slime
+ ielm
+ grep
  indent-buffer
  align-regexp
- grep
  toggle-truncate-lines
  replace-string
- revert-buffer
- zone
 )
 
 ;; ----- smex-data -----
@@ -37,7 +37,7 @@
  (op/new-post . 16)
  (customize-group . 1)
  (exchange-dot-and-mark . 1)
- (grep . 52)
+ (grep . 53)
  (image-mode . 1)
  (imagex-global-sticky-mode . 2)
  (org-display-inline-images . 1)
@@ -46,4 +46,6 @@
  (plantuml-mode . 4)
  (plantuml-run . 1)
  (indent-buffer . 33)
+ (slime . 6)
+ (ielm . 2)
 )

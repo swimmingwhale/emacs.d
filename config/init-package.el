@@ -30,7 +30,6 @@
     dired-single
     emmet-mode
     git-gutter
-    slime
     mustache
     ggtags
     ido
