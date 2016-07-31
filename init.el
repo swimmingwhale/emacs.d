@@ -64,4 +64,6 @@
 ;(require 'init-mustache-mode)
 ;交互两个窗口的buffer
 (require 'init-buffer-move)
+;520-mode
+(require 'init-520-mode)
 
