@@ -42,6 +42,8 @@
 
 ;;; Code:
 
+
+;这个函数作用是插入一个点,然后创建一个overlay覆盖这个点,在overlay上显示"❤",延迟0.5秒删除overlay
 (defun 520-mode--insert-a-point ()
   (insert ".")
   (let ((overlay (make-overlay (- (point) 1)
@@ -50,8 +52,10 @@
     (run-at-time 0.5 nil (lambda ()
                          (delete-overlay overlay)))))
 
+;判断如果输入520,则把输入点向后移动1或2位,执行上面的函数,然后恢复输入点的位置
 (defun 520-mode-dyd ()
-  (interactive)
+;这句不知道干啥的,隐藏了不影响功能  
+;  (interactive)
   (save-excursion
     (when (and (> (point) 3)
     	 (string= "520" (buffer-substring-no-properties (- (point) 3)
