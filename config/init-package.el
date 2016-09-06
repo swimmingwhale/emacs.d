@@ -25,6 +25,7 @@
     undo-tree
     flymake-php
     popup
+magit
     autopair
     color-theme
     dired-single

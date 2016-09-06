@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ package-install
+ toggle-truncate-lines
  indent-buffer
  align-regexp
  grep
- toggle-truncate-lines
  revert-buffer
  lisp-interaction-mode
- replace-string
 )
 
 ;; ----- smex-data -----
@@ -24,20 +24,20 @@
  (tetris . 4)
  (zone . 17)
  (dunnet . 1)
- (toggle-truncate-lines . 96)
+ (toggle-truncate-lines . 99)
  (visit-tags-table . 2)
  (gtags-mode . 4)
  (gtags-find-pattern . 4)
  (gtags-find-symbol . 4)
  (align . 1)
- (align-regexp . 85)
+ (align-regexp . 91)
  (revert-buffer . 58)
- (op/do-publication . 101)
+ (op/do-publication . 102)
  (op/do-publication-and-preview-site . 37)
  (op/new-post . 16)
  (customize-group . 1)
  (exchange-dot-and-mark . 1)
- (grep . 107)
+ (grep . 124)
  (image-mode . 1)
  (imagex-global-sticky-mode . 2)
  (org-display-inline-images . 1)
@@ -45,10 +45,11 @@
  (diff . 1)
  (plantuml-mode . 4)
  (plantuml-run . 1)
- (indent-buffer . 298)
+ (indent-buffer . 311)
  (slime . 12)
  (ielm . 2)
  (lisp-interaction-mode . 4)
  (5x5 . 1)
  (520-mode . 5)
+ (package-install . 2)
 )
