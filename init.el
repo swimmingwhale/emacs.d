@@ -73,6 +73,11 @@
 (require 'init-buffer-move)
 ;520-mode
 (require 'init-520-mode)
+;git
+(require 'init-git)
+;kuppo-push
+(require 'init-kuppo-push)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

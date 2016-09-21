@@ -25,7 +25,8 @@
 "Indent the whole buffer."
 (interactive)
 (save-excursion
-(indent-region (point-min) (point-max) nil)))
+  (indent-region (point-min) (point-max) nil)))
+
 
 ;启动最大化
 

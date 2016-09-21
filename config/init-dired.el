@@ -26,5 +26,12 @@
 (global-set-key (kbd "C-x d")
                 'dired-single-magic-buffer)
 
+;; C-x C-j 打开当前文件的目录
+(global-set-key (kbd "C-x C-j")
+                (lambda ()
+                  (interactive)
+                  (if (buffer-file-name)
+                      (dired default-directory))))
+
 
 (provide 'init-dired)
