@@ -1,12 +1,25 @@
+;; git说明文档地址 https://github.com/rejeep/git.el
 
-(defun aaaaaaa ()
+(require 'git)
+
+(setq kuppo/repository-directory "~/work/crm/")
+
+(defun kuppo-push ()
   (interactive)
-  (insert ".")
+  (let ((git-repo kuppo/repository-directory))
+    (message "kuppo-push") 
+    (git-pull "origin" "master")
+    (git-add)
+    (if  (git-staged-files)
+	(progn
+	  (git-commit "add by kuppo")
+	  (git-push "origin" "master")
+	  (message "push finish")
+	  )
+      (message "no file has been changed"))
+    )
+  
+  
   )
-
-
-(defun hello-world (name)
-  (interactive "sWhat you name? ")
-  (message "Hello, %s" name))
 
 (provide 'kuppo-push)
