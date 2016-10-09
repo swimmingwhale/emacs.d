@@ -6,6 +6,7 @@
 
 (defun kuppo-push ()
   (interactive)
+
   (let ((git-repo kuppo/repository-directory))
     (message "kuppo-push") 
     (git-pull "origin" "master")
@@ -18,8 +19,6 @@
 	  )
       (message "no file has been changed"))
     )
-  
-  
   )
 
 (provide 'kuppo-push)
