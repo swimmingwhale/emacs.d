@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  kuppo-push
+ grep
+ lisp-interaction-mode
  indent-buffer
  toggle-truncate-lines
- grep
  occur
  auto-revert-tail-mode
- align-regexp
 )
 
 ;; ----- smex-data -----
@@ -37,7 +37,7 @@
  (op/new-post . 16)
  (customize-group . 1)
  (exchange-dot-and-mark . 1)
- (grep . 184)
+ (grep . 188)
  (image-mode . 1)
  (imagex-global-sticky-mode . 2)
  (org-display-inline-images . 1)
@@ -48,7 +48,7 @@
  (indent-buffer . 451)
  (slime . 12)
  (ielm . 2)
- (lisp-interaction-mode . 5)
+ (lisp-interaction-mode . 6)
  (5x5 . 1)
  (520-mode . 6)
  (package-install . 2)
@@ -71,7 +71,7 @@
  (hello . 15)
  (find-dired . 1)
  (aaaaaaa . 2)
- (kuppo-push . 643)
+ (kuppo-push . 701)
  (flymake-php-load . 1)
  (occur . 3)
  (auto-revert-tail-mode . 1)
