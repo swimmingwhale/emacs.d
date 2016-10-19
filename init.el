@@ -18,7 +18,7 @@
 ;记录关闭时的状态
 ;(require 'init-session)
 ;lisp开发环境
-(require 'init-slime)
+;(require 'init-slime)
 ;皮肤
 (require 'init-theme)
 ;配置org-mode

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- kuppo-push
  grep
  lisp-interaction-mode
  indent-buffer
  toggle-truncate-lines
  occur
  auto-revert-tail-mode
+ replace-string
 )
 
 ;; ----- smex-data -----
