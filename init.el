@@ -12,7 +12,7 @@
 ;配置备份文件目录,启动最大化等基础配置
 (require 'init-common)
 ;配置字体
-;(require 'init-font)
+(require 'init-font)
 ;php语法高亮
 (require 'init-php-mode)
 ;记录关闭时的状态

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ describe-font
  grep
  lisp-interaction-mode
  toggle-truncate-lines
  occur
  auto-revert-tail-mode
  replace-string
- align-regexp
 )
 
 ;; ----- smex-data -----
@@ -75,4 +75,5 @@
  (flymake-php-load . 1)
  (occur . 3)
  (auto-revert-tail-mode . 1)
+ (describe-font . 1)
 )
