@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  grep
  describe-font
  lisp-interaction-mode
  toggle-truncate-lines
  occur
- auto-revert-tail-mode
- replace-string
+ indent-buffer
 )
 
 ;; ----- smex-data -----
@@ -67,11 +67,11 @@
  (help . 1)
  (view-hello-file . 1)
  (aaa . 2)
- (eval-buffer . 74)
+ (eval-buffer . 82)
  (hello . 15)
  (find-dired . 1)
  (aaaaaaa . 2)
- (kuppo-push . 701)
+ (kuppo-push . 702)
  (flymake-php-load . 1)
  (occur . 3)
  (auto-revert-tail-mode . 1)
