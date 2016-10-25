@@ -11,6 +11,10 @@
 (require 'init-package)
 ;配置备份文件目录,启动最大化等基础配置
 (require 'init-common)
+;linux中启动最大化
+;(require 'init-linux-start-maximizing)
+;windows中启动最大化
+(require 'init-windows-start-maximizing)
 ;配置字体
 (require 'init-font)
 ;php语法高亮

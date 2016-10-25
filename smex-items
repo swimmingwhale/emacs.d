@@ -1,8 +1,8 @@
 
 ;; ----- smex-history -----
 (
- describe-font
  grep
+ describe-font
  lisp-interaction-mode
  toggle-truncate-lines
  occur
@@ -37,7 +37,7 @@
  (op/new-post . 16)
  (customize-group . 1)
  (exchange-dot-and-mark . 1)
- (grep . 188)
+ (grep . 189)
  (image-mode . 1)
  (imagex-global-sticky-mode . 2)
  (org-display-inline-images . 1)
