@@ -13,8 +13,10 @@
 (require 'init-common)
 ;linux中启动最大化
 ;(require 'init-linux-start-maximizing)
+;Mac中启动最大化
+;(require 'init-mac-start-maximizing)
 ;windows中启动最大化
-(require 'init-windows-start-maximizing)
+;(require 'init-windows-start-maximizing)
 ;配置字体
 (require 'init-font)
 ;php语法高亮
@@ -32,7 +34,7 @@
 ;配置一些全局的快捷键
 (require 'init-global-key)
 ;切换窗口和初始化时的窗口
-(require 'init-windows)
+;(require 'init-windows)
 ;自动输入成对括号
 (require 'init-autopair)
 ;自定义代码片段,便捷输入
@@ -62,7 +64,7 @@
 ;语法检查
 (require 'init-flymake-php)
 ;画思维导图的
-(require 'init-graphviz-dot-mode)
+;(require 'init-graphviz-dot-mode)
 ;image的扩展
 ;(require 'init-image+)
 ;plantuml
