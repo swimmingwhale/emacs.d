@@ -1,10 +1,10 @@
 
 ;; ----- smex-history -----
 (
+ dired
  customize-group
  list-packages
  getenv
- dired
  cua-mode
  replace-string
  indent-buffer
@@ -35,7 +35,7 @@
  (op/do-publication . 104)
  (op/do-publication-and-preview-site . 37)
  (op/new-post . 16)
- (customize-group . 4)
+ (customize-group . 7)
  (exchange-dot-and-mark . 1)
  (grep . 190)
  (image-mode . 1)
@@ -78,7 +78,7 @@
  (describe-font . 1)
  (linum-mode . 2)
  (cua-mode . 6)
- (dired . 2)
+ (dired . 3)
  (getenv . 1)
  (list-packages . 4)
  (TeX-engine-set . 2)
