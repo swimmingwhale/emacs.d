@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- grep
- describe-font
- lisp-interaction-mode
- toggle-truncate-lines
- occur
+ customize-group
+ list-packages
+ getenv
+ dired
+ cua-mode
+ replace-string
  indent-buffer
 )
 
 ;; ----- smex-data -----
 (
  (load-library . 1)
- (replace-string . 133)
+ (replace-string . 137)
  (kill-some-buffers . 4)
  (org-store-link . 2)
  (org-capture . 1)
@@ -30,14 +30,14 @@
  (gtags-find-pattern . 4)
  (gtags-find-symbol . 4)
  (align . 1)
- (align-regexp . 105)
+ (align-regexp . 110)
  (revert-buffer . 58)
  (op/do-publication . 104)
  (op/do-publication-and-preview-site . 37)
  (op/new-post . 16)
- (customize-group . 1)
+ (customize-group . 4)
  (exchange-dot-and-mark . 1)
- (grep . 189)
+ (grep . 190)
  (image-mode . 1)
  (imagex-global-sticky-mode . 2)
  (org-display-inline-images . 1)
@@ -67,7 +67,7 @@
  (help . 1)
  (view-hello-file . 1)
  (aaa . 2)
- (eval-buffer . 82)
+ (eval-buffer . 83)
  (hello . 15)
  (find-dired . 1)
  (aaaaaaa . 2)
@@ -76,4 +76,10 @@
  (occur . 3)
  (auto-revert-tail-mode . 1)
  (describe-font . 1)
+ (linum-mode . 2)
+ (cua-mode . 6)
+ (dired . 2)
+ (getenv . 1)
+ (list-packages . 4)
+ (TeX-engine-set . 2)
 )

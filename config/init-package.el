@@ -15,6 +15,8 @@
              '("org" . "http://orgmode.org/elpa/") t)
 (add-to-list 'package-archives
              '("SC" . "http://joseito.republika.pl/sunrise-commander/") t)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
 
 (defvar kh/depended-packages
@@ -25,7 +27,7 @@
     undo-tree
     flymake-php
     popup
-magit
+    magit
     autopair
     color-theme
     dired-single

@@ -1,0 +1,31 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/book/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/book/Documents/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "hello.tex"
+ "demo.tex"
+ "demo.php"
+ "demo.md"
+ "demo.py"
+ "fff.test"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/book/Documents/" (23662 25336 0 0) "hello.tex" "hello.pdf" "_region_.log" "hello.aux" "hello.log" "_region_.tex" ".localized" "prv_hello.log" "missfont.log" ".DS_Store" "hello.dvi" "../" "./")
+
+ ("/Users/book/" (23662 25600 857739 909000) ".viminfo" ".bash_history" ".gitconfig" "Downloads/" "Documents/" ".npm/" ".backups/" "codes/" ".snipaste/" ".Trash/" "Applications/" "Movies/" ".ssh/" "Public/" ".bash_sessions/" ".emacs.d/" ".ShadowsocksX-NG/" ".lesshst" "Library/" "Desktop/" "Pictures/" ".CFUserTextEncoding" "bb" ".DS_Store" ".node-gyp/" "Music/" ".config/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

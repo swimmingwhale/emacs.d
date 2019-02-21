@@ -83,6 +83,8 @@
 ;(require 'init-git)
 ;kuppo-push
 (require 'init-kuppo-push)
+;Latex
+(require 'init-latex)
 
 
 (custom-set-variables
@@ -92,7 +94,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (php-mode yasnippet window-numbering web-mode undo-tree smex session plantuml-mode org-page macrostep image+ git-gutter ggtags flymake-php emmet-mode dired-single color-theme buffer-move autopair auto-complete ace-jump-mode))))
+    (auctex php-mode yasnippet window-numbering web-mode undo-tree smex session plantuml-mode org-page macrostep image+ git-gutter ggtags flymake-php emmet-mode dired-single color-theme buffer-move autopair auto-complete ace-jump-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
