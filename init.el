@@ -32,7 +32,7 @@
 ;输入提示
 (require 'init-auto-complete)
 ;配置一些全局的快捷键
-(require 'init-global-key)
+;(require 'init-global-key)
 ;切换窗口和初始化时的窗口
 ;(require 'init-windows)
 ;自动输入成对括号

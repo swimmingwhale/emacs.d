@@ -2,16 +2,20 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/book/Documents/" . "resume/")
  ("/Users/book/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/Users/book/Documents/"
+ "/Users/book/Documents/resume/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "demo.org"
+ "resume.tex"
  "hello.tex"
  "demo.tex"
  "demo.php"
@@ -22,9 +26,11 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/book/Documents/" (23662 27569 0 0) "hello.tex" "hello.pdf" "_region_.log" "_region_.prv/" "hello.aux" "hello.log" "_region_.pdf" "_region_.tex" ".localized" "prv_hello.log" "missfont.log" ".DS_Store" "hello.dvi" "../" "./")
+ ("/Users/book/Documents/resume/" (23662 45247 0 0) "image.jpg" "resume.log" "resume.aux" "description/" "resume.pdf" "resume.out" ".DS_Store" "resume.tex" "../" "./")
 
- ("/Users/book/" (23662 27743 922308 804000) ".viminfo" ".bash_history" ".gitconfig" "Downloads/" "Documents/" ".npm/" ".backups/" "codes/" ".snipaste/" ".Trash/" "Applications/" "Movies/" ".ssh/" "Public/" ".bash_sessions/" ".emacs.d/" ".ShadowsocksX-NG/" ".lesshst" "Library/" "Desktop/" "Pictures/" ".CFUserTextEncoding" "bb" ".DS_Store" ".node-gyp/" "Music/" ".config/" "../" "./")
+ ("/Users/book/Documents/" (23667 24235 0 0) "图形.key" "resume/" ".localized" ".DS_Store" "演示文稿1.pptx" "../" "./")
+
+ ("/Users/book/" (23667 61222 844047 890000) ".viminfo" ".bash_history" ".gitconfig" "Downloads/" "Documents/" ".npm/" ".backups/" "codes/" ".snipaste/" ".Trash/" "Applications/" "Movies/" ".ssh/" "Public/" ".bash_sessions/" ".emacs.d/" ".ShadowsocksX-NG/" ".lesshst" "Library/" "Desktop/" "Pictures/" ".CFUserTextEncoding" "bb" ".DS_Store" ".vim/" ".node-gyp/" ".docker/" "Music/" ".config/" "workspace.tar.gz" ".SwitchHosts/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

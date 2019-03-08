@@ -78,7 +78,7 @@
  (describe-font . 1)
  (linum-mode . 2)
  (cua-mode . 6)
- (dired . 3)
+ (dired . 4)
  (getenv . 1)
  (list-packages . 4)
  (TeX-engine-set . 2)
